@@ -23,9 +23,9 @@ services:
             - "443:443"
 
         environment:
-            - TZ=America/Chicago
+            - TZ=Europe/London
             - LETSENCRYPT=true
-            - LE_EMAIL=name@example.com
-            - LE_FQDN=www.example.com
+            - LE_EMAIL=infinity89@gmail.com
+            - LE_FQDN=infinitylx.org
             #- SSL_CERT=le-crt.pem
             #- SSL_KEY=le-key.pem
