@@ -17,6 +17,7 @@ services:
         volumes:
             - ./etc/ssl:/etc/nginx/ssl
             - ./etc/firedep.conf:/etc/nginx/service.conf
+            - /srv/nginx:/srv/nginx
 
         ports:
             - "80:80"
